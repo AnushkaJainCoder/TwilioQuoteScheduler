@@ -29,10 +29,10 @@ import org.json.JSONObject;
 
 
 public class Main {
-    public static final String ACCOUNT_SID = "ACcca6af313ab8940cfe137334bccb5e0e";
-    public static final String AUTH_TOKEN = "64999f83a9c3bc2d3de5ac3a5bc59382";
-    public static final String twilioPhoneNo = "+15202241106";
-    public static final String Personal = "+917302416699";
+    public static final String ACCOUNT_SID = "account_sid";
+    public static final String AUTH_TOKEN = "auth_token";
+    public static final String twilioPhoneNo = "twillio";
+    public static final String Personal = "personal";
     
     private static String sendSMS() {
         String quote;
